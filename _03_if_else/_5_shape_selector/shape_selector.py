@@ -21,6 +21,7 @@ if __name__ == '__main__':
         my_turtle.goto(0, 55)
         my_turtle.goto(55, 0)
         my_turtle.goto(0, 0)
+        turtle.done()
     if shape == "square":
         my_turtle.color('blue')
         my_turtle.pencolor('blue')
@@ -28,8 +29,9 @@ if __name__ == '__main__':
         my_turtle.goto(-75, 75)
         my_turtle.goto(0, 75)
         my_turtle.goto(0, 0)
+        turtle.done()
     if shape == "circle":
         my_turtle.pencolor('purple')
-        my_turtle.
+        my_turtle.circle(radius=50, steps=30)
+        turtle.done()
     # Call the turtle .done() method
-    turtle.done()
